@@ -1,0 +1,16 @@
+.galleryItem {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15),
+    0px 1px 1px rgba(0, 0, 0, 0.15);
+  transform: scale(1);
+  transition: transform 0.4s, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.galleryItem:hover {
+  box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.galleryImg {
+  width: 340px;
+  height: 220px;
+  object-fit: cover;
+}
